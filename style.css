@@ -1,0 +1,258 @@
+
+body{
+    font-family: arial;
+    color: black;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+h1{
+  text-align: center;
+    font-family: serif;
+    font-size: 3.5rem;
+    margin-top: 1.5rem;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3.5rem;
+}
+header{
+ background-image: url(images/cool-backyard-rock-garden-design-for-small-space.jpg);
+margin-bottom: 2.5rem;
+}
+.summary{
+    text-align: center;
+    background-color: aqua;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 7rem;    
+}
+h3{
+    font-size: 2rem;
+    font-family: arial bold;   color:cornflowerblue;
+align-items: center;
+    display: flex;
+    
+}
+
+h3:hover{
+    color: red;
+}
+
+.preamble p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 7rem;    
+}
+.preamble h3{
+    margin-right: 4rem;
+    font-size: 27px;
+}
+.explanation p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 0;
+    margin-top: 2rem;
+}
+.explanation h3{
+        margin-top:5.5rem;
+    }
+.participation p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;    
+}
+.benefits p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;    
+}
+.requirements p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;    
+}
+footer{
+    background-color: beige;
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 1rem;
+}
+.sidebar {
+    margin-left: 590px; 
+    background: #f7cb6c;
+    position: absolute; 
+    top: 15.7rem; 
+    right: 0;
+    bottom: 0;
+    height: 71rem;
+    font-size: 15px;
+    }
+.select {
+    margin-left: 1rem;
+    font-size: 19px;
+    color: blue;
+}
+.archives {
+    margin-left: 1rem;
+    font-size: 20px;
+    color: blue;
+}
+.resources {
+    margin-left: 1rem;
+    font-size: 20px;
+    color: blue;
+}
+
+@media only screen and (min-width:35rem){    
+
+body{
+        background-color: ghostwhite;
+    }
+h1{
+       font-size: 4.6rem;
+    }
+h2{
+        font-size: 2.2rem;
+    }
+.sidebar{
+        font-size: 20px
+    }    
+.select {
+    margin-left: 1rem;
+    font-size: 30px;
+    color: blue;
+}
+    
+.archives {
+    margin-left: 1rem;
+    font-size: 30px;
+    color: blue;
+}
+.resources {
+    margin-left: 1rem;
+    font-size: 30px;
+    color: blue;
+}
+.summary{
+    text-align: center;
+    background-color: aqua;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 22rem;    
+}
+.preamble p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 22rem;    
+}
+.preamble h3{
+        text-align: center;
+        margin-left: 6.7rem;
+    }
+.explanation h3{
+        margin-top: 5rem;
+    margin-left: 15.4rem;
+    }
+.explanation p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 0;
+}
+.participation h3{
+        margin-top: 5rem;
+    margin-left: 20rem;
+    }
+.participation p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;    
+}
+.benefits h3{
+        margin-top: 5rem;
+    margin-left: 22rem;
+    }
+.benefits p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;    
+}
+.requirements h3{
+        margin-top: 5rem;
+    margin-left: 20rem;
+    }
+.requirements p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;    
+}
+.sidebar { 
+    top: 17.6rem; 
+    height: 55rem;
+    font-size: 20px;
+    }
+.select {
+    margin-left: 1rem;
+    font-size: 35px;
+    color: blue;
+}
+.archives {
+    margin-left: 1rem;
+    font-size: 35px;
+    color: blue;
+}
+.resources {
+    margin-left: 1rem;
+    font-size: 35px;
+    color: blue;
+}
+}
+@media only screen and (min-width:60rem){
+    
+body{
+        background-color: white;
+    }
+.summary{
+        margin-right: 25rem;
+    }
+.preamble p{
+    margin-right: 25rem;    
+}  
+.preamble h3{
+        margin-left: 22rem;
+    }
+.explanation h3{
+        margin-top: 1.5rem;
+    margin-left: 20rem;
+    }
+.explanation p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 25rem;
+}
+.participation h3{
+        margin-top: 2.5rem;
+    margin-left: 36rem;
+    }
+.requirements h3{
+        margin-top: 2.5rem;
+    margin-left: 36rem;
+    }
+    
+.benefits h3{
+        margin-top: 2.5rem;
+    margin-left: 39rem;
+    }
+}
+
+    
